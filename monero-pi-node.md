@@ -66,13 +66,13 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
  $ `ssh pi@IPADDRESS` enter default password: _raspberry_  
  4. Add permission and execute flag  
  $ `sudo chmod a+x monero-pi-node.sh`  
- 5. Run install script 
- $ `sudo bash monero-pi-node.sh` and enter password   
+ 5. Run install script  
+ $ `sudo bash monero-pi-node.sh` and enter password  
  6. Bring the coffee ⛾ or something like that will  take about ~2 hours  
 
 	**Waiting to finish installation or compilation.**
  
- 8. Test  run monero node ./monerod
+ 8. Test  run monero node ./monerod  
 `./monerod`  
  
 	**Thank you for being great ✔**
@@ -81,7 +81,7 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
 Help
 $ `./monerod --help`  
 
-Run as a daemon in background 
+Run as a daemon in background  
 $ `monerod --detach` # run as a daemon in background  
 $ `tail -f ~/.bitmonero/bitmonero.log` # watch the logs  
 $ `./monerod exit` # ask daemon to exit gracefully  

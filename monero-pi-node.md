@@ -72,7 +72,10 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
 
 	**Waiting to finish installation or compilation.**
  
- 8. Test  run monero node ./monerod  
+ 8. Compiled binary files are in your home directory  
+ $ `cd monero/build/Linux/master/release/bin`  
+ $ `ls -lha`  
+ 9. Test  run monero node ./monerod  
 `./monerod`  
  
 	**Thank you for being great ✔**

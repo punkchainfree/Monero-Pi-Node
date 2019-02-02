@@ -61,9 +61,9 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
  
  2. Go to _Download directory_ and Copy file via scp or putty   
  $ `cd Downloads`  
- $ `scp monero-pi-node.sh IPADDRESS:/pi/`  
+ $ `scp monero-pi-node.sh USER@IPADDRESS:/home/USER/`  
  3. Connect to Raspberry via ssh   
- $ `ssh pi@IPADDRESS` enter default password: _raspberry_  
+ $ `ssh user@IPADDRESS` enter default user: _pi_ password: _raspberry_  
  4. Add permission and execute flag  
  $ `sudo chmod a+x monero-pi-node.sh`  
  5. Run install script  

@@ -39,60 +39,60 @@ Run Raspberry Pi with Raspbian
  3. Log-in user: **pi**  password: **raspberry** # default user
  4. Enable ssh - by raspi-config utility
  
- Enter `sudo raspi-config` in a terminal window
- Select `Interfacing Options`
- Navigate to and select `SSH`
- Choose `Yes`
- Select `Ok`
- Choose `Finish`
+ Enter `sudo raspi-config` in a terminal window  
+ Select `Interfacing Options`  
+ Navigate to and select `SSH`  
+ Choose `Yes`  
+ Select `Ok`  
+ Choose `Finish`  
  
- 5. Find your IP address
- Enter `ipconfig eth0`
- Find your IP `inet` 192.168.***.*** according your LAN 
- 6.  Check connection to ssh another from other computer
- Open terminal `ssh pi@ipaddress ` or use putty on M$
- 7. Download [monero-pi-node.sh](https://www.patreon.com/punkchain) script
- or [github.com/punkchainfree](https://github.com/punkchainfree)  after few months.
+ 5. Find your IP address  
+ Enter `ipconfig eth0`  
+ Find your IP `inet` 192.168.***.*** according your LAN   
+ 6.  Check connection to ssh another from other computer  
+ Open terminal `ssh pi@ipaddress ` or use putty on M$  
+ 7. Download [monero-pi-node.sh](https://www.patreon.com/punkchain) script  
+ or [github.com/punkchainfree](https://github.com/punkchainfree)  after few months.  
  
 **Let's go install it  - (On stream)**
 Download  [monero-pi-node.sh](https://www.patreon.com/punkchain) script from Patreon or Github later..
 
-Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
+Copy `monero-pi-node.sh` by ssh to raspberry (Linux)  
 
- 1. Open terminal or console ubuntu shortcut `ctrl + alt + t`
+ 1. Open terminal or console ubuntu shortcut `ctrl + alt + t`  
  
- 2. Go to _Download directory_ and Copy file via scp or putty 
- $ `cd Downloads`
- $ `scp monero-pi-node.sh IPADDRESS:/pi/`
+ 2. Go to _Download directory_ and Copy file via scp or putty   
+ $ `cd Downloads`  
+ $ `scp monero-pi-node.sh IPADDRESS:/pi/`  
  3.  Connect to Raspberry via ssh 
- $ `ssh pi@IPADDRESS` enter default password: _raspberry_
- 4. Add permission and execute flag
+ $ `ssh pi@IPADDRESS` enter default password: _raspberry_  
+ 4. Add permission and execute flag  
  $ `sudo chmod a+x monero-pi-node.sh`  
  5. Run install script 
- $ `sudo bash monero-pi-node.sh` and enter password
- 6. Bring the coffee ⛾ or something like that will  take about ~2 hours
+ $ `sudo bash monero-pi-node.sh` and enter password   
+ 6. Bring the coffee ⛾ or something like that will  take about ~2 hours  
 
 	**Waiting to finish installation or compilation.**
  
  8. Test  run monero node ./monerod
-`./monerod `
+`./monerod`  
  
 	**Thank you for being great ✔**
 ## Some useful command
 
 Help
-$ `./monerod --help`
+$ `./monerod --help`  
 
 Run as a daemon in background 
-$ `monerod --detach` # run as a daemon in background
-$ `tail -f ~/.bitmonero/bitmonero.log` # watch the logs
-$ `./monerod exit` # ask daemon to exit gracefully
+$ `monerod --detach` # run as a daemon in background  
+$ `tail -f ~/.bitmonero/bitmonero.log` # watch the logs  
+$ `./monerod exit` # ask daemon to exit gracefully  
 
-more in Monero [docs](https://monerodocs.org/interacting/monerod-reference/) 
-# Files
-`monero-pi-node.sh` - Patrons first Github later
-`monero-pi-node.iso` (16GB) - Patrons Only
-`monero-pi-node.md` - Patrons first Github later
+more in Monero [docs](https://monerodocs.org/interacting/monerod-reference/)  
+# Files  
+`monero-pi-node.sh` - Patrons first Github later  
+`monero-pi-node.iso` (16GB) - Patrons Only  
+`monero-pi-node.md` - Patrons first Github later  
 
 ## Develop - road map 
 

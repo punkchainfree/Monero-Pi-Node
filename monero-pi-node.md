@@ -31,20 +31,18 @@ Script was created as training and for support creative community.
 If you want to learn more about this project, you can support us at Patreon, or watch on Twitch.  **Script** will be released by opensource on [github.com/punkchainfree ](https://github.com/punkchainfree) after 3-6 months [**check it**](https://github.com/punkchainfree).   
 
 **Let's go  to do  - (off stream)**
-
 Run Raspberry Pi with Raspbian
 
  1. Plug-in MicroSD to Rasp. Pi and connect power supply. 
  2. Plug-in LCD-HDMI and comp. keyboard
  3. Log-in user: **pi**  password: **raspberry** # default user
- 4. Enable ssh - by raspi-config utility
- 
- Enter `sudo raspi-config` in a terminal window  
- Select `Interfacing Options`  
- Navigate to and select `SSH`  
- Choose `Yes`  
- Select `Ok`  
- Choose `Finish`  
+ 4. Enable ssh - by raspi-config utility  
+ 	Enter `sudo raspi-config` in a terminal window  
+ 	Select `Interfacing Options`  
+ 	Navigate to and select `SSH`  
+ 	Choose `Yes`  
+ 	Select `Ok`  
+ 	Choose `Finish`  
  
  5. Find your IP address  
  Enter `ipconfig eth0`  
@@ -64,7 +62,7 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
  2. Go to _Download directory_ and Copy file via scp or putty   
  $ `cd Downloads`  
  $ `scp monero-pi-node.sh IPADDRESS:/pi/`  
- 3.  Connect to Raspberry via ssh 
+ 3. Connect to Raspberry via ssh   
  $ `ssh pi@IPADDRESS` enter default password: _raspberry_  
  4. Add permission and execute flag  
  $ `sudo chmod a+x monero-pi-node.sh`  

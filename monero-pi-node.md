@@ -37,7 +37,8 @@ Run Raspberry Pi with Raspbian
  1. Plug-in MicroSD to Rasp. Pi and connect power supply. 
  2. Plug-in LCD-HDMI and comp. keyboard
  3. Log-in user: **pi**  password: **raspberry** # default user
- 4. Enable ssh - by raspi-config utility 
+ 4. Enable ssh - by raspi-config utility
+ 
  Enter `sudo raspi-config` in a terminal window
  Select `Interfacing Options`
  Navigate to and select `SSH`

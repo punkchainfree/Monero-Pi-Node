@@ -68,7 +68,7 @@ Copy `monero-pi-node.sh` by ssh to raspberry (Linux)
  $ `sudo chmod a+x monero-pi-node.sh`  
  5. Run install script  
  $ `sudo bash monero-pi-node.sh` and enter password  
- 6. Bring the coffee ⛾ or something like that will  take about ~2 hours  
+ 6. Bring the coffee ⛾ or something like that will  take about ~2+ hours  
 
 	**Waiting to finish installation or compilation.**
  
